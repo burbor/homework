@@ -6,10 +6,10 @@ def summ(x):
     return sum_number
 
 
-def num(x):
+def num(y):
     num_number = 0
-    while x > 1:
-        x /= 10
+    while y > 1:
+        y /= 10
         num_number += 1
     return num_number
 
