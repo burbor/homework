@@ -14,8 +14,8 @@ def num(y):
     return num_number
 
 
-number = int(input('Введите число:'))
+number = int(input('Введите число :'))
 print('Сумма чисел:', summ(number))
 print('Количество цифр:', num(number))
 difference = summ(number) - num(number)
-print('Разность суммы и количества цифр :', difference)
+print('Разность суммы и количества цифр:', difference)
